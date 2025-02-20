@@ -21,6 +21,7 @@
 
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
   </head>
+  <div id="about">
   <table style="width:100%; max-width:800px; border:0; margin:auto;">
     <tbody>
       <tr>
@@ -77,173 +78,111 @@
       </tr>
     </tbody>
   </table>
-  
-  <div style="background:#E6F0FA; padding:15px; margin-top:20px; border-radius:5px; font-size:14px;">
-    <strong>BLAH BLAH BLAH ABLADHD</strong> BALH
+</div>
+
+<nav class="navbar" style="background:#E6F0FA; padding:15px; margin-top:20px; border-radius:5px; font-size:15px;">
+  <a href="#about">About</a>
+  <span class="divider">|</span>
+  <a href="#ex">Experience</a>
+  <span class="divider">|</span>
+  <a href="#pub">Publications</a>
+  <span class="divider">|</span>
+  <a href="#proj">Projects</a>
+</nav>
+
+  <div id='ex' class="section">
+    <h2>Interests and Work Experience</h2>
+    <p>
+      I'm interested in <strong>Generative Foundation Models, Multimodal Learning, and Federated Learning</strong>.
+      Much of my research focuses on inferring the physical world through <strong>intelligent multimodal AI systems</strong>.
+    </p>
+    <ul>
+      <li><strong>JP Morgan Chase</strong> – Worked in the <strong>commercial and consumer banking</strong> org (Chase) to <strong>detect anomalies in retail transactions</strong>.</li>
+      <li><strong>College of Engineering, Pune (COEP)</strong> – Designed a <strong>license plate recognition system</strong> to improve <strong>campus security</strong>. Received an <strong>institutional grant</strong> for this research.</li>
+      <li><strong>Tata Research and Development Center (TRDDC)</strong> – Adapted <strong>submodular functions</strong> for <strong>timeline summarization tasks</strong>, preserving the efficiency of <strong>multi-document summarization models</strong>.</li>
+      <li><strong>Rezoomex (AI Startup)</strong> – Improved <strong>natural language processing (NLP) techniques</strong> for <strong>entity recognition</strong> and <strong>knowledge graph integration</strong>.</li>
+    </ul>
+  </div>
+
+  <div  id='ts 'class="section">
+    <h2>Technical Skills</h2>
+    <ul class="skills-list">
+      <li><strong>Programming Languages:</strong> Python, C++, Java, JavaScript</li>
+      <li><strong>Databases:</strong> MySQL, MongoDB, Cassandra</li>
+      <li><strong>Deep Learning:</strong> PyTorch, TensorFlow, CUDA</li>
+      <li><strong>Data:</strong> Apache (Spark, Kafka), BigQuery, Hadoop</li>
+      <li><strong>Machine Learning:</strong> Recommender Systems, Classification, Clustering, DNNs (MLP, Multi-Tower networks, Transformers, Diffusion models)</li>
+      <li><strong>MLOps:</strong> Docker, Kubernetes, Airflow, GCP</li>
+    </ul>
   </div>
 
 
-  <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin:auto;">
-    <tbody>
-      <tr>
-        <td style="padding:20px;width:100%;vertical-align:middle">
-          <h2>Interests and Work Experience</h2>
-          <p>
-            I'm interested in **Generative Foundation Models, Multimodal Learning, and Federated Learning**.
-            Much of my research focuses on inferring the physical world through **intelligent multimodal AI systems**.
-          </p>
-          <p>
-             **JP Morgan Chase** – Worked in the **commercial and consumer banking** org (Chase) to **detect anomalies in retail transactions**.
-          </p>
-          <p>
-             **College of Engineering, Pune (COEP)** – Designed a **license plate recognition system** to improve **campus security**. Received **institutional grant** for this research.
-          </p>
-          <p>
-             **Tata Research and Development Center (TRDDC)** – Adapted **submodular functions** for **timeline summarization tasks**, preserving the efficiency of **multi-document summarization models**.
-          </p>
-          <p>
-             **Rezoomex (AI Startup)** – Improved **natural language processing (NLP) techniques** for **entity recognition** and **knowledge graph integration**.
-          </p>
-        </td>
-      </tr>
-    </tbody>
-  </table>
+<div id='pub'class="section">
+  <h2>Publications</h2>
+  <div class="publication">
+    <img src="data/teaser.png" alt="Publication">
+    <div>
+      <p class="papertitle"><strong>Leveraging Knowledge Graphs for Orphan Entity Allocation in Resume Processing</strong></p>
+      <p>Aagam Bakliwal, <strong>Shubham Gandhi</strong>, Yashodhara Haribhakta</p>
+      <p><em>IEEE IICAIET 2023</em></p>
+      <a href="https://arxiv.org/abs/2310.14093">arXiv</a>
+      <p>Used knowledge graphs to allocate orphan entities in resume processing.</p>
+    </div>
+  </div>
 
-  <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
-    <tbody>
-      <tr>
-        <td style="padding:20px;width:100%;vertical-align:middle">
-          <h2>Technical Skills</h2>
-        </td>
-      </tr>
-      <tr>
-        <td width="75%" valign="center">
-          <ul>
-            <li><strong>Programming Languages:</strong> Python, C++, Java, JavaScript</li>
-            <br>
-            <li><strong>Databases:</strong> MySQL, MongoDB, Cassandra</li>
-            <br>
-            <li><strong>Deep Learning:</strong> PyTorch, TensorFlow, CUDA</li>
-            <br>
-            <li><strong>Data:</strong> Apache (Spark, Kafka), BigQuery, Hadoop</li>
-            <br>
-            <li><strong>Machine Learning:</strong> Recommender Systems, Classification, Clustering, DNNs(MLP, Multi-Tower networks, Transformers, Diffusion models)</li>
-            <br>
-            <li><strong>MLOps:</strong> Docker, Kubernetesm Airflow, GCP</li>
-          </ul>
-        </td>
-      </tr>
-    </tbody>
-  </table>
+  <div class="publication">
+    <img src="data/chest.jpeg" alt="Publication">
+    <div>
+      <p class="papertitle"><strong>Federated Learning for Lesion Detection in Chest X-rays</strong></p>
+      <p><strong>Shubham Gandhi</strong>, Aagam Bakliwal, Yashodhara Haribhakta</p>
+      <p><em>B.Tech Thesis, March 2024</em></p>
+      <p><strong>Awarded UG Project Competition 2024 (1st in department, 3rd institution-wide)</strong></p>
+      <a href="https://drive.google.com/file/d/11v67i8wMprE330CF-VQhuMd1LQEuioQ5/view?usp=share_link">View Report</a>
+      <p>Trained on VinBigData’s dataset using YOLOv9 and VGG16 to detect lesions in chest X-rays.</p>
+    </div>
+  </div>
 
+  <div class="publication">
+    <img src="data/FSDP.png" alt="Publication">
+    <div>
+      <p class="papertitle"><strong>Comparative Analysis of Distributed Training Strategies for GPT-2</strong></p>
+      <p>Ishan Pathwardhan, <strong>Shubham Gandhi</strong>, Om Khare, Yashodhara Haribhakta</p>
+      <p><em>Under Review - International Journal of Parallel Computing, February 2024</em></p>
+      <a href="https://arxiv.org/pdf/2405.15628">arXiv</a>
+      <p>Compared Fully Sharded Data Parallel (FSDP) and Distributed Data-Parallel (DDP) for GPT-2 training.</p>
+    </div>
+  </div>
+</div>
 
-  <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-    <tbody>
-      <tr>
-        <td>
-          <h2>Publications</h2>
-        </td>
-      </tr>
-    </tbody>
-  </table>
+<div  id ='proj'class="section">
+  <h2>Projects</h2>
+  <div class="project">
+    <img src="data/ocr.png" alt="Project">
+    <div>
+      <p class="papertitle"><strong>NVIDIA Jetson-Enabled Real-Time License Plate OCR</strong></p>
+      <p><em>January 2024</em></p>
+      <a href="https://github.com/gandhi-shubh02/Real-Time-License-Plate-OCR">GitHub Repository</a>
+      <p>Used YOLOv8 and Tesseract to detect and extract license plates in real-time with 92% accuracy, deployed on NVIDIA Jetson.</p>
+    </div>
+  </div>
 
-  <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin:auto;">
-    <tbody>
+  <div class="project">
+    <img src="data/pothole.png" alt="Project">
+    <div>
+      <p class="papertitle"><strong>YOLOv8-Based Visual Detection of Road Hazards</strong></p>
+      <p><em>IEEE PuneCon 2023</em></p>
+      <a href="https://arxiv.org/abs/2311.00073">arXiv</a>
+      <p>Evaluated YOLOv8’s performance in detecting potholes and compared it with YOLOv5 and YOLOv7 for better safety applications.</p>
+    </div>
+  </div>
 
-      <tr>
-        <td style="padding:20px;width:25%;vertical-align:middle">
-          <img src="data/teaser.png" style="width:100%; height:auto;">
-        </td>
-        <td style="padding:20px;width:75%;vertical-align:middle">
-          <p class="papertitle"><strong>Leveraging Knowledge Graphs for Orphan Entity Allocation in Resume Processing</strong></p>
-          <p>Aagam Bakliwal, <strong>Shubham Gandhi</strong>, Yashodhara Haribhakta</p>
-          <p><em>IEEE International Conference on Artificial Intelligence in Engineering and Technology (IICAIET), 2023</em></p>
-          <a href="https://arxiv.org/abs/2310.14093">arXiv</a>
-          <p>This research presents a novel approach for orphan entity allocation in resume processing using knowledge graphs.</p>
-        </td>
-      </tr>
-
-      <tr>
-        <td style="padding:20px;width:25%;vertical-align:middle">
-          <img src="data/chest.jpeg" style="width:100%; height:auto;">
-        </td>
-        <td style="padding:20px;width:75%;vertical-align:middle">
-          <p class="papertitle"><strong>Federated Learning for Lesion Detection in Chest X-rays</strong></p>
-          <p><strong>Shubham Gandhi</strong>, Aagam Bakliwal, Yashodhara Haribhakta</p>
-          <p><em>B.Tech Thesis, March 2024</em></p>
-          <p><strong>Awarded UG Project Competition 2024 (1st in department, 3rd institution-wide)</strong></p>
-          <a href="https://drive.google.com/file/d/11v67i8wMprE330CF-VQhuMd1LQEuioQ5/view?usp=share_link-1">View Report</a>
-          <p>Trained on VinBigData’s dataset using YOLOv9 and VGG16 to detect lesions in chest X-rays.</p>
-        </td>
-      </tr>
-
-     
-      <tr>
-        <td style="padding:20px;width:25%;vertical-align:middle">
-          <img src="data/FSDP.png" style="width:100%; height:auto;">
-        </td>
-        <td style="padding:20px;width:75%;vertical-align:middle">
-          <p class="papertitle"><strong>Comparative Analysis of Distributed Training Strategies for GPT-2</strong></p>
-          <p>Ishan Pathwardhan, <strong>Shubham Gandhi</strong>, Om Khare, Yashodhara Haribhakta</p>
-          <p><em>Under Review - International Journal Of Parallel Computing, February 2024</em></p>
-          <a href="https://arxiv.org/pdf/2405.15628">arXiv</a>
-          <p>Analyzed Fully Sharded Data Parallel (FSDP) and Distributed Data-Parallel (DDP) strategies for training GPT-2.</p>
-        </td>
-      </tr>
-
-    </tbody>
-  </table>
-  
-
-
-  <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-    <tbody>
-      <tr>
-        <td>
-          <h2>Projects</h2>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-
-  <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin:auto;">
-    <tbody>
-
-      <tr>
-        <td style="padding:20px;width:25%;vertical-align:middle">
-          <img src="data/ocr.png" style="width:100%; height:auto;">
-        </td>
-        <td style="padding:20px;width:75%;vertical-align:middle">
-          <p class="papertitle"><strong>NVIDIA Jetson-Enabled Real-Time License Plate OCR</strong></p>
-          <p><em>January 2024</em></p>
-          <a href="https://github.com/gandhi-shubh02/Real-Time-License-Plate-OCR">GitHub Repository</a>
-          <p>Used YOLOv8 and Tesseract to detect and extract license plates in real-time with an accuracy of 92%, deployed on NVIDIA Jetson.</p>
-        </td>
-      </tr>
-
-      <tr>
-        <td style="padding:20px;width:25%;vertical-align:middle">
-          <img src="data/pothole.png" style="width:100%; height:auto;">
-        </td>
-        <td style="padding:20px;width:75%;vertical-align:middle">
-          <p class="papertitle"><strong>YOLOv8-Based Visual Detection of Road Hazards</strong></p>
-          <p><em>IEEE PuneCon 2023</em></p>
-          <a href="https://arxiv.org/abs/2311.00073">arXiv</a>
-          <p>Evaluated YOLOv8’s performance in detecting potholes and compared it with YOLOv5 and YOLOv7 for better safety applications.</p>
-        </td>
-      </tr>
-
-      <tr>
-        <td style="padding:20px;width:25%;vertical-align:middle">
-          <img src="data/corl.png" style="width:100%; height:auto;">
-        </td>
-        <td style="padding:20px;width:75%;vertical-align:middle">
-          <p class="papertitle"><strong>Enhanced Security Using a Randomized Key Matrix in Symmetric Substitution Ciphers</strong></p>
-          <p><em>December 2023</em></p>
-          <a href="https://arxiv.org/abs/2311.18085">arXiv</a>
-          <p>Proposed a security enhancement using a randomized key matrix for symmetric substitution ciphers, evaluated for computational speed and entropy.</p>
-        </td>
-      </tr>
-
-    </tbody>
-  </table>
+  <div class="project">
+    <img src="data/corl.png" alt="Project">
+    <div>
+      <p class="papertitle"><strong>Enhanced Security Using a Randomized Key Matrix in Symmetric Substitution Ciphers</strong></p>
+      <p><em>December 2023</em></p>
+      <a href="https://arxiv.org/abs/2311.18085">arXiv</a>
+      <p>Proposed a security enhancement using a randomized key matrix for symmetric substitution ciphers, evaluated for computational speed and entropy.</p>
+    </div>
+  </div>
+</div>
