@@ -5,9 +5,14 @@ body {
   font-size: 14px;
   color: #333;
   background-color: #ffffff;
-  margin: 0;
-  padding: 100px;
+  margin: 0;       
+  padding: 20px;   
+}
 
+.main-container {
+  max-width: 800px;    
+  margin: 0 auto;      
+  padding: 20px 0;     
 }
 
 h1 {
@@ -18,7 +23,7 @@ h1 {
 }
 
 h2 {
-  font-size: 22px;
+  font-size: 24px;
   font-weight: normal;
   margin-bottom: 10px;
   border-bottom: 2px solid #878787;
@@ -55,7 +60,7 @@ a:hover {
 }
 
 .section ul li {
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 8px;
 }
 
@@ -108,9 +113,9 @@ a:hover {
 }
 
 .clip-circle {
-  width: 300px; 
+  width: 350px; 
   height: auto;
-  border-radius: 0; 
+  border-radius: 15px; 
   object-fit: cover;
 }
 
